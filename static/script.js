@@ -1,4 +1,4 @@
-const toggleFavorite = function (event) {
+ const toggleFavorite = function (event) {
     const coracao = event.currentTarget;
     coracao.classList.toggle('favorited');
 
